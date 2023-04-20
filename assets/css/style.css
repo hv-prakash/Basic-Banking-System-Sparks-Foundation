@@ -1,0 +1,143 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightseagreen;
+    background: url("https://images.pexels.com/photos/259103/pexels-photo-259103.jpeg?auto=compress&cs=tinysrgb&w=400");
+
+    
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f1f2e4 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #f2ece4!important;
+}
+
+.navbar-brand{
+    font-family: 'Golos Text', cursive;
+    font-size: 1.5rem;
+    color: #68675f!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f2;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: lightblue;
+    color: black;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+    background: url("https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  
+    
+}
+
+.hero-img{
+    height: 70vh;
+    width: 80%;
+    border-radius: 100%;
+    border: dashed;
+    border-width: 10px;
+    border-color: skyblue;
+    
+
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #039be5!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #bfdff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+/* footer css ends here  */
